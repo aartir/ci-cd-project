@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     res.json({
+        statusCode:200,
         message: "CI/CD pipeling is working"
     });
 });
